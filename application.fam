@@ -1,0 +1,8 @@
+App(
+    appid="furi_cpp",
+    name="Furi C++ Test",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="fap_main",
+    requires=["gui", "notification"],
+    stack_size=1 * 1024,
+)
