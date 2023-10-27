@@ -2,9 +2,11 @@
 
 #include <cstdio>
 
-#include "furi.hh"
+#include "furi/cb.hh"
+#include "furi/kernel.hh"
+#include "furi/timer.hh"
 
-namespace app {
+namespace timer_app {
   using namespace furi;
   using namespace furi::timer;
   using namespace furi::timer::type;

@@ -1,8 +1,8 @@
 #pragma once
 
-#include <furi.h>
+#include <furi/core/timer.h>
 
-#include "furi/callback.hh"
+#include "furi/cb.hh"
 #include "furi/macros.hh"
 #include "furi/own.hh"
 

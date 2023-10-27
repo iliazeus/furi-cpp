@@ -1,8 +1,8 @@
 #pragma once
 
-#include <gui/gui.h>
+#include <gui/view_port.h>
 
-#include "furi/callback.hh"
+#include "furi/cb.hh"
 #include "furi/canvas.hh"
 #include "furi/input.hh"
 #include "furi/macros.hh"

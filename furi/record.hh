@@ -1,6 +1,6 @@
 #pragma once
 
-#include <furi.h>
+#include <furi/core/record.h>
 
 #include "furi/macros.hh"
 #include "furi/own.hh"

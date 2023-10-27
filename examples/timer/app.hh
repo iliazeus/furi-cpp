@@ -2,11 +2,18 @@
 
 #include <cstdio>
 
-#include "furi.hh"
+#include "furi/defer_macro.hh"
+#include "furi/event_queue.hh"
+#include "furi/gui.hh"
+#include "furi/input.hh"
+#include "furi/mutex.hh"
+#include "furi/notification.hh"
+#include "furi/variant.hh"
+#include "furi/view_port.hh"
 
-#include "app/second_timer.hh"
+#include "examples/timer/second_timer.hh"
 
-namespace app {
+namespace timer_app {
   using namespace furi;
 
   namespace event {
@@ -45,7 +52,7 @@ namespace app {
       using namespace furi::gui;
       using namespace furi::input;
       using namespace furi::view_port;
-      using namespace app::event;
+      using namespace timer_app::event;
 
       mutex::acquire(_mutex, -1);
       defer (mutex::release(_mutex));
@@ -86,7 +93,7 @@ namespace app {
       using namespace furi::input;
       using namespace furi::input::type;
       using namespace furi::view_port;
-      using namespace app::event;
+      using namespace timer_app::event;
 
       update(_vp);
 

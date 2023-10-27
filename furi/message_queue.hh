@@ -1,6 +1,6 @@
 #pragma once
 
-#include <furi.h>
+#include <furi/core/message_queue.h>
 
 #include "furi/macros.hh"
 #include "furi/own.hh"

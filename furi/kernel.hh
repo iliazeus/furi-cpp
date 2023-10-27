@@ -1,6 +1,6 @@
 #pragma once
 
-#include <furi.h>
+#include <furi/core/kernel.h>
 
 #include "furi/macros.hh"
 

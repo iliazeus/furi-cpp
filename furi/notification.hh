@@ -4,8 +4,8 @@
 #include <notification/notification_messages.h>
 
 #include "furi/macros.hh"
-#include "furi/record.hh"
 #include "furi/own.hh"
+#include "furi/record.hh"
 
 namespace furi {
   using NotificationApp = ::NotificationApp;

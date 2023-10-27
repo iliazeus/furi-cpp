@@ -1,6 +1,6 @@
 #pragma once
 
-#include <gui/gui.h>
+#include <gui/canvas.h>
 
 #include "furi/macros.hh"
 

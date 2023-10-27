@@ -2,7 +2,7 @@
 
 #include <variant>
 
-#include "furi/callback.hh"
+#include "furi/cb.hh"
 #include "furi/message_queue.hh"
 
 namespace furi {

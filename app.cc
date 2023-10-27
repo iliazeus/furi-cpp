@@ -1,7 +1,9 @@
-#include "app/app.hh"
-#include "app/second_timer.hh"
+#include "examples/timer/app.hh"
+#include "examples/tracker/app.hh"
 
 extern "C" int32_t fap_main(void*) {
-  app::App::main();
+  timer_app::App::main();
+  // tracker_app::App::main();
+
   return 0;
 }
